@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+
+    margin-bottom: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 2.5% 2% 1.5%;
+}
+
+.menu-item {
+    display: block;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(107, 107, 107);
+
+
+    margin: 1.5rem auto;
+}
+
+.vertical-line {
+    height: 500px;
+    float: right;
+
+    border: 1px solid rgb(201, 200, 200);
+}
+
+.images-area p {
+    width: 85%;
+
+    color: rgb(120, 120, 120);
+}
+
+.carousel {
+    width: 75%;
+
+    margin-bottom: 1.2rem;
+}
+
+.pass-carousel {
+    color: black;
+}
+
+.black-section {
+    color: white;
+}
+
+.section-header {
+    font-family: "Righteous", cursive;
+    font-size: 4rem;
+
+    margin: 0.75rem auto 1.5rem;
+}

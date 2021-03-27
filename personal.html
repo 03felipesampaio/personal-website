@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">FELIPE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarHome"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarHome">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#projects-section">Projetos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-section">Sobre</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact-section">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Projects area -->
+    <div class="projects container-fluid" id="projects-section">
+      <!-- <h1 class="section-header">Projetos</h1> -->
+
+      <div class="row">
+        <!-- Left side bar to help in navigation -->
+        <div class="col-2 sidebar">
+          <h3><a href="#" class="menu-item">Website 1</a></h3>
+          <h3><a href="#" class="menu-item">Website 2</a></h3>
+          <h3><a href="#" class="menu-item">Website 3</a></h3> 
+        </div>
+
+        <div class="vertical-line"></div>
+
+        <!-- Where screenshots of projects are show -->
+        <div class="col-8 mx-auto images-area">
+
+          <!-- Images -->
+          <div
+            class="carousel slide carousel-fade mx-auto"
+            id="screenshots"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/poster.png"
+                  class="d-block img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+
+            <a
+              class="carousel-control-prev pass-carousel"
+              href="#screenshots"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next pass-carousel"
+              href="#screenshots"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <button class="btn btn-dark float-right">Veja mais</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            placerat sit amet ligula vel vehicula. Vivamus dapibus luctus lacus,
+            eu bibendum lorem mollis at. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Nulla eros sem,
+            semper et consequat eu, gravida vitae eros. Cras eget laoreet
+            libero, ut blandit neque.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second section of the website -->
+    <div class="black-section bg-dark">
+      <div class="about container-fluid" id="about-section">
+        <h2 class="section-header">Sobre</h2>
+        <p>
+          Vestibulum vitae volutpat augue. Maecenas ac libero non turpis aliquam
+          interdum et vel nisl. Fusce eget luctus est. Maecenas mattis
+          consectetur nulla, et interdum mi iaculis id. Fusce porta varius diam.
+          Praesent in vestibulum dui. Aliquam varius, mauris vel pellentesque
+          volutpat, magna est imperdiet sem, eu ullamcorper enim lectus id nibh.
+          Praesent id ultrices arcu, in condimentum magna. Aenean bibendum id
+          diam sagittis accumsan. Sed non semper tellus. Donec volutpat nulla
+          mi, et gravida purus interdum in. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+        </p>
+      </div>
+
+      <!-- Contact me area -->
+      <div class="contact container-fluid" id="contact-section">
+        <h2 class="section-header">Contato</h2>
+        <ul>
+          <li>Email: 03.felipesampaio@gmail.com</li>
+          <li>
+            Github:
+            <a href="https://github.com/03felipesampaio">03felipesampaio</a>
+          </li>
+          <li>Linkedin</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
